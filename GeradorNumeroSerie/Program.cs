@@ -11,7 +11,7 @@ namespace GeradorNumeroSerie
         {
             var seriesemDV = @"C:\Users\Leandro\source\repos\ProcessoTecGraf\GeradorNumeroSerie\App_Data\serieSemDV.txt";
             var seriesComDV = @"C:\Users\Leandro\source\repos\ProcessoTecGraf\GeradorNumeroSerie\App_Data\serieComDV.txt";
-
+            Console.WriteLine();
             Console.WriteLine("Iniciando o calculo do digito verificador.....");
 
             var arquivo = new Arquivo();
