@@ -9,7 +9,9 @@ namespace Utils.Core
         {
             if(File.Exists(caminho))
             {
+                //Retorno
                 return File.ReadAllLines(caminho);
+
             }
 
             return new string[] { };
