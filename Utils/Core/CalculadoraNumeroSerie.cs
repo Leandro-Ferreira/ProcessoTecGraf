@@ -20,6 +20,7 @@ namespace Utils.Core
 
         private byte[] ExtrairCodigoASCIIDoArquivo(string linhaAquivo)
         {
+            //Retornar os bytes
             return Encoding.ASCII.GetBytes(linhaAquivo);
         }
 
